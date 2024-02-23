@@ -1,0 +1,24 @@
+.sidebar{
+    background-color: #235393;
+}
+li:hover{
+    background-color: #57cc02;
+}
+@media only screen and (max-width: 600px) {
+    .sidebar {
+      display: none;
+        }
+  }
+ li{
+    background-color: #436ba0;
+ }
+
+*{
+    font-family: "Work Sans", sans-serif;
+}
+nav{
+    background-color: #235393;
+}
+svg{
+    padding-left: 578px;
+}
