@@ -1,5 +1,13 @@
 .sidebar{
     background-color: #235393;
+    position: fixed;
+    width: 250px;
+    top: 80px;
+    bottom: 0px;
+}
+.side-content{
+    margin-left: 260px;
+    margin-top: 85px;
 }
 li:hover{
     background-color: #57cc02;
@@ -10,6 +18,12 @@ li:hover{
         }
     .tamil{
         font-size: 11px;
+    }
+    .side-content{
+        margin-left: 10px;
+    }
+    h4{
+        display: none;
     }
   }
  li{
@@ -33,4 +47,7 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
     background-color: darkgrey;
     border-radius: 5px;
+}
+section{
+    scroll-margin-top: 85px;
 }
