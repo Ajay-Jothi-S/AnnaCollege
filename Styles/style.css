@@ -9,7 +9,7 @@
     margin-left: 260px;
     margin-top: 85px;
 }
-li:hover{
+.nav-item:hover{
     background-color: #57cc02;
 }
 @media only screen and (max-width: 600px) {
@@ -19,12 +19,18 @@ li:hover{
     .tamil{
         font-size: 11px;
     }
+    .english{
+        font-size: 15px;
+    }
     .side-content{
-        margin-left: 10px;
+        margin-left: 0px;
     }
-    h4{
-        display: none;
+    .logoimg{
+        width: 55px;
     }
+  }
+  .logoimg{
+     width: 55px;
   }
  li{
     background-color: #436ba0;
@@ -60,4 +66,11 @@ section{
 }
 .slide-img{
     height: 350px;
+}
+::selection{
+    background-color: #235393;
+    color: white;
+}
+.FooterSection{
+    background-color: #235393;
 }
