@@ -49,5 +49,15 @@ body::-webkit-scrollbar-thumb{
     border-radius: 5px;
 }
 section{
-    scroll-margin-top: 85px;
+    scroll-margin-top: 90px;
+}
+.About-Container{
+    background-color: #235393;
+
+}
+.caption-name{
+    text-shadow: 5px 2px black;
+}
+.slide-img{
+    height: 350px;
 }
